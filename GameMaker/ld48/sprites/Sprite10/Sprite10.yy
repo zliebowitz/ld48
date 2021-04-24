@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "LD48",
-    "path": "LD48.yyp",
+    "name": "ld48",
+    "path": "ld48.yyp",
   },
   "resourceVersion": "1.0",
   "name": "Sprite10",
