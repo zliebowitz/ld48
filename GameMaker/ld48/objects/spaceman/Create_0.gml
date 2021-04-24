@@ -14,10 +14,6 @@ max_x_speed = 3;
 // Peak at which jump gravity will be modified
 jump_peak_speed = 6;
 
-// Direction the character is facing. -1 is left, 1 is right.
-player_direction = 1;
-
-
 // Input buffering
 // Adding a buffer in frames to make jumping more forgiving
 jump_buffer = 12;
@@ -27,5 +23,8 @@ jump_buffer_count = 0;
 // Prevent player from falling over.
 // Disable this if you're making a face dragging game.
 phy_fixed_rotation=true;
+
+// Set the global gravity to 125 downwards.
+physics_world_gravity(0, 125);
 
 global.player = self;

@@ -60,8 +60,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"SpiderbotTest","path":"rooms/SpiderbotTest/SpiderbotTest.yy",},},
     {"roomId":{"name":"OpeningCrawl","path":"rooms/OpeningCrawl/OpeningCrawl.yy",},},
+    {"roomId":{"name":"SpiderbotTest","path":"rooms/SpiderbotTest/SpiderbotTest.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"AlienPlanet1","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},},
     {"roomId":{"name":"AlienPlanet2","path":"rooms/AlienPlanet2/AlienPlanet2.yy",},},
