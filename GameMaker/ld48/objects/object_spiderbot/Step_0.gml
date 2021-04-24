@@ -19,19 +19,19 @@ if abs(distance_to_object(global.player)) <= 70 && moveTime <= 0
 }
 
 // Attacks
-if moveTime % 18 == 0
+if moveTime % 90 == 0
 {
 	bullet = instance_create_depth(x+64, y+84, 0, object_bullet);
 	bullet.direction = point_direction(x+64, y+84, global.player.x, global.player.y);
 	bullet.speed = 3;
 }
-if moveTime % 18 == 6
+if moveTime % 90 == 30
 {
 	bullet = instance_create_depth(x+136, y+84, 0, object_bullet);
 	bullet.direction = point_direction(x+136, y+84, global.player.x, global.player.y);
 	bullet.speed = 3;
 }
-if moveTime % 18 == 12
+if moveTime % 90 == 60
 {
 	bullet = instance_create_depth(x+208, y+84, 0, object_bullet);
 	bullet.direction = point_direction(x+208, y+84, global.player.x, global.player.y);

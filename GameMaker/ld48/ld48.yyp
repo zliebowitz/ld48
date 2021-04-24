@@ -28,7 +28,7 @@
     {"id":{"name":"object_collideable","path":"objects/object_collideable/object_collideable.yy",},"order":7,},
     {"id":{"name":"sprite_avatar_running","path":"sprites/sprite_avatar_running/sprite_avatar_running.yy",},"order":0,},
     {"id":{"name":"AlienPlanet1","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},"order":1,},
-    {"id":{"name":"sprite_spiderbot","path":"sprites/sprite_spiderbot/sprite_spiderbot.yy",},"order":6,},
+    {"id":{"name":"sprite_spiderbot","path":"sprites/sprite_spiderbot/sprite_spiderbot.yy",},"order":7,},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},"order":2,},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":15,},
     {"id":{"name":"object_fade_out","path":"objects/object_fade_out/object_fade_out.yy",},"order":1,},
