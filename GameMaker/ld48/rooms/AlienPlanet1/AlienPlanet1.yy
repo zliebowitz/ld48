@@ -3,7 +3,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":true,"xview":1024,"yview":0,"wview":640,"hview":360,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":128,"vborder":64,"hspeed":-1,"vspeed":-1,"objectId":{"name":"spaceman","path":"objects/spaceman/spaceman.yy",},},
+    {"inherit":false,"visible":true,"xview":1024,"yview":0,"wview":640,"hview":360,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":320,"vborder":64,"hspeed":-1,"vspeed":-1,"objectId":{"name":"spaceman","path":"objects/spaceman/spaceman.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -30,6 +30,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"object_wall","path":"objects/object_wall/object_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4278190080,"rotation":0.0,"scaleX":85.0,"scaleY":87.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":792.0,"resourceVersion":"1.0","name":"inst_39E94865","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_fade_in","path":"objects/object_fade_in/object_fade_in.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-24.0,"y":0.0,"resourceVersion":"1.0","name":"inst_B9B4ECC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_fade_out","path":"objects/object_fade_out/object_fade_out.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-24.0,"y":16.0,"resourceVersion":"1.0","name":"inst_2E6289B0","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"object_bgm_1","path":"objects/object_bgm_1/object_bgm_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-24.0,"y":32.0,"resourceVersion":"1.0","name":"inst_4770E1D7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"spaceman","path":"objects/spaceman/spaceman.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":192.0,"resourceVersion":"1.0","name":"inst_2ADD2055","tags":[],"resourceType":"GMRInstance",},
@@ -55,6 +56,7 @@
     {"name":"inst_2E6289B0","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},
     {"name":"inst_2ADD2055","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},
     {"name":"inst_1712727E","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},
+    {"name":"inst_4770E1D7","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
