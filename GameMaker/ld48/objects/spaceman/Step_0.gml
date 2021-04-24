@@ -10,14 +10,22 @@
 if keyboard_check(control_right)
 {
 	image_xscale = 1;
+	sprite_index = sprite_avatar_running;
 	physics_apply_force(x, y, x_force, 0); 
 }
 
 // Move left
-if keyboard_check(control_left)
+else if keyboard_check(control_left)
 {
 	image_xscale = -1
+	sprite_index = sprite_avatar_running;
 	physics_apply_force(x, y, -x_force, 0); 
+}
+
+// Idle
+else
+{
+	sprite_index = sprite_avatar_idle;
 }
 
 // Lower gravity when jump is held at the peak of the jump

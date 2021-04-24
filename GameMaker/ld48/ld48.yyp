@@ -16,6 +16,7 @@
     {"id":{"name":"object_opening_crawl_text","path":"objects/object_opening_crawl_text/object_opening_crawl_text.yy",},"order":0,},
     {"id":{"name":"object_opening_crawl_crawler","path":"objects/object_opening_crawl_crawler/object_opening_crawl_crawler.yy",},"order":1,},
     {"id":{"name":"object_bgm_1","path":"objects/object_bgm_1/object_bgm_1.yy",},"order":1,},
+    {"id":{"name":"sprite_avatar_idle","path":"sprites/sprite_avatar_idle/sprite_avatar_idle.yy",},"order":1,},
     {"id":{"name":"sprite_grayscale","path":"sprites/sprite_grayscale/sprite_grayscale.yy",},"order":1,},
     {"id":{"name":"sprite_spaceman_attack","path":"sprites/sprite_spaceman_attack/sprite_spaceman_attack.yy",},"order":5,},
     {"id":{"name":"object_boss_parent","path":"objects/object_boss_parent/object_boss_parent.yy",},"order":8,},
