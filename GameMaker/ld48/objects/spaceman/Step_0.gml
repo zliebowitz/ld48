@@ -9,14 +9,14 @@
 // Move right
 if keyboard_check(control_right)
 {
-	player_direction = -1;
+	image_xscale = 1;
 	physics_apply_force(x, y, x_force, 0); 
 }
 
 // Move left
 if keyboard_check(control_left)
 {
-	player_direction = 1
+	image_xscale = -1
 	physics_apply_force(x, y, -x_force, 0); 
 }
 
@@ -83,7 +83,8 @@ if ((abs(phy_speed_x) >= max_x_speed) || (!keyboard_check(control_left) && !keyb
 if (keyboard_check_pressed(vk_enter))
 {
 	// sprite-width is negative when facing right.
-	instance_create_layer(x + sign(sprite_width) * 5, y, layer, spaceman_attack);
+	var spaceman_attack_instance = instance_create_layer(x + sign(sprite_width) * 5, y, layer, spaceman_attack);
+	spaceman_attack_instance.image_xscale = image_xscale;
 }
 
 //room borders
