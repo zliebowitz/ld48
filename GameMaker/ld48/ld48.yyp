@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"object_wall","path":"objects/object_wall/object_wall.yy",},"order":0,},
     {"id":{"name":"object_fade_in","path":"objects/object_fade_in/object_fade_in.yy",},"order":0,},
+    {"id":{"name":"spaceman","path":"objects/spaceman/spaceman.yy",},"order":5,},
     {"id":{"name":"sprite_white","path":"sprites/sprite_white/sprite_white.yy",},"order":0,},
     {"id":{"name":"object_opening_crawl_text","path":"objects/object_opening_crawl_text/object_opening_crawl_text.yy",},"order":0,},
     {"id":{"name":"object_opening_crawl_crawler","path":"objects/object_opening_crawl_crawler/object_opening_crawl_crawler.yy",},"order":1,},
