@@ -16,6 +16,6 @@ if (room_id != -1)
 	
 	if (fade_count == max_fade_count)
 	{
-		room_goto(AlienPlanet1);
+		room_goto(room_id);
 	}
 }
