@@ -4,7 +4,7 @@
 
 // Forces and Speeds
 // Acceleration and jumping forces
-x_force = 40;
+x_force = 60;
 y_force = 20;
 x_deceleration = 0.9;
 y_player_gravity = 125;
@@ -15,6 +15,9 @@ max_x_speed = 3;
 
 // Peak at which jump gravity will be modified
 jump_peak_speed = 6;
+
+// Direction the character is facing. -1 is left, 1 is right.
+player_direction = 1;
 
 
 // Input buffering
