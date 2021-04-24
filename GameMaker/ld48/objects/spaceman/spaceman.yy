@@ -14,9 +14,9 @@
   "physicsGroup": 1,
   "physicsDensity": 1.0,
   "physicsRestitution": 0.0,
-  "physicsLinearDamping": 0.1,
+  "physicsLinearDamping": 0.3,
   "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.5,
+  "physicsFriction": 0.0,
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
@@ -28,8 +28,8 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_wall","path":"objects/object_wall/object_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_boss1","path":"objects/object_boss1/object_boss1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_collideable","path":"objects/object_collideable/object_collideable.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -1,13 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 // Forces and Speeds
 // Acceleration and jumping forces
-x_force = 30;
-y_force = 30;
+x_force = 40;
+y_force = 20;
+x_deceleration = 0.9;
+y_player_gravity = 125;
+y_player_jump_gravity = y_player_gravity * 0.5;
+
 // How fast player can move (pixels/second)
-max_x_speed = 4;
-// Jumping is limited by y_force and gravity room setting
+max_x_speed = 3;
+
+// Peak at which jump gravity will be modified
+jump_peak_speed = 6;
+
 
 // Input buffering
 // Adding a buffer in frames to make jumping more forgiving

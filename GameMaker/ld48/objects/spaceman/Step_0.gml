@@ -18,6 +18,16 @@ if keyboard_check(control_left)
    physics_apply_force(x, y, -x_force, 0); 
 }
 
+// Lower gravity when jump is held at the peak of the jump
+if (keyboard_check(control_jump) && (abs(phy_speed_y <= jump_peak_speed)))
+{
+	physics_world_gravity(0, y_player_jump_gravity);
+}
+else
+{
+	physics_world_gravity(0, y_player_gravity);
+}
+
 // Jump Input
 if keyboard_check_pressed(control_jump) && jump_buffer_count >= jump_buffer
 {
@@ -29,15 +39,26 @@ if jump_buffer_count < jump_buffer
    jump_buffer_count++;
 }
 
-// Player is standing on ground and account for jump_buffer
-if place_meeting(x, y + 1, object_wall) && jump_buffer_count < jump_buffer
+// Player is standing on ground
+if place_meeting(x, y + 1, object_collideable)
 {
-   // Jump!
-   physics_apply_impulse(x, y, 0, -y_force);
+	// Limit speed more aggresively if the player is on the ground
+	if (!keyboard_check(control_left) && !keyboard_check(control_right))
+		phy_speed_x *= x_deceleration;
+	
+   // Jump if jump buffer is incrimented
+   if (jump_buffer_count < jump_buffer)
+	 physics_apply_impulse(x, y, 0, -y_force);
 }
 
 // Clamp movement speed so we don't accelerate forever
-phy_speed_x = clamp(phy_speed_x, -max_x_speed, max_x_speed);
+//phy_speed_x = clamp(phy_speed_x, -max_x_speed, max_x_speed);
+
+
+if ((abs(phy_speed_x) >= max_x_speed) || (!keyboard_check(control_left) && !keyboard_check(control_right)))
+{
+	phy_speed_x *= x_deceleration;
+}
 
 
 //room borders
