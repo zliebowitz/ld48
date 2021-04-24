@@ -6,22 +6,16 @@
 // https://forum.yoyogames.com/index.php?threads/basic-physics-platformer-controls.65895/
 //
 
-// Move right
-if keyboard_check(control_right)
-{
-	image_xscale = 1;
-	sprite_index = sprite_avatar_running;
-	physics_apply_force(x, y, x_force, 0); 
-}
+var controller_state = GameplayController();
 
-// Move left
-else if keyboard_check(control_left)
-{
-	image_xscale = -1
-	sprite_index = sprite_avatar_running;
-	physics_apply_force(x, y, -x_force, 0); 
-}
 
+var x_in = controller_state.x_dir;
+if (x_in != 0)
+{
+	image_xscale = sign(x_in);
+	sprite_index = sprite_avatar_running;
+	physics_apply_force(x, y, x_in * x_force, 0)
+}
 // Idle
 else
 {
@@ -29,7 +23,7 @@ else
 }
 
 // Lower gravity when jump is held at the peak of the jump
-if (keyboard_check(control_jump) && (abs(phy_speed_y <= jump_peak_speed)))
+if (controller_state.jump && (abs(phy_speed_y <= jump_peak_speed)))
 {
 	physics_world_gravity(0, y_player_jump_gravity);
 }
@@ -39,7 +33,7 @@ else
 }
 
 // Jump Input
-if keyboard_check_pressed(control_jump) && jump_buffer_count >= jump_buffer
+if controller_state.jump && jump_buffer_count >= jump_buffer
 {
    jump_buffer_count = 0;
 }
@@ -49,20 +43,11 @@ if jump_buffer_count < jump_buffer
    jump_buffer_count++;
 }
 
-
 // Player is standing on ground
 if place_meeting(x, y + 1, object_collideable) || place_meeting(x, y + 1, object_platform)
 {
-	
-	var moving_collideable = instance_position(x, y+1, object_collideable);
-	if moving_collideable != noone
-	{
-		phy_position_x += moving_collideable.phy_speed_x;
-	}
-	
-	
 	// Limit speed more aggresively if the player is on the ground
-	if (!keyboard_check(control_left) && !keyboard_check(control_right))
+	if (x_in == 0)
 		phy_speed_x *= x_deceleration;
 	
    // Jump if jump buffer is incrimented
@@ -92,12 +77,12 @@ else if place_meeting(x - 1, y, object_collideable) && (jump_buffer_count < jump
 //phy_speed_x = clamp(phy_speed_x, -max_x_speed, max_x_speed);
 
 
-if ((abs(phy_speed_x) >= max_x_speed) || (!keyboard_check(control_left) && !keyboard_check(control_right)))
+if abs(phy_speed_x) >= max_x_speed || x_in == 0
 {
 	phy_speed_x *= x_deceleration;
 }
 
-if (keyboard_check_pressed(vk_enter))
+if (controller_state.attack)
 {
 	// sprite-width is negative when facing right.
 	var spaceman_attack_instance = instance_create_layer(x + sign(sprite_width) * 5, y, layer, spaceman_attack);
@@ -113,3 +98,5 @@ if x <= 0
 {
 	physics_apply_force(x, y, x_force*10, 0);
 }
+
+

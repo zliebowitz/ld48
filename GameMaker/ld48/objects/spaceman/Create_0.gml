@@ -26,11 +26,6 @@ jump_buffer = 12;
 // Count placeholder (should be 0 here)
 jump_buffer_count = 0;
 
-// Controls
-control_left = ord("A");
-control_right = ord("D");
-control_jump = vk_space;
-
 // Prevent player from falling over.
 // Disable this if you're making a face dragging game.
 phy_fixed_rotation=true;
