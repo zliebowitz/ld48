@@ -5,8 +5,8 @@
 // Forces and Speeds
 // Acceleration and jumping forces
 x_force = 60;
-y_force = 20;
-x_deceleration = 0.9;
+y_force = 25;
+x_deceleration = 0.85;
 y_player_gravity = 125;
 y_player_jump_gravity = y_player_gravity * 0.5;
 
@@ -34,3 +34,5 @@ control_jump = vk_space;
 // Prevent player from falling over.
 // Disable this if you're making a face dragging game.
 phy_fixed_rotation=true;
+
+global.player = self;
