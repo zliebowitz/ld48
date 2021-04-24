@@ -49,9 +49,18 @@ if jump_buffer_count < jump_buffer
    jump_buffer_count++;
 }
 
+
 // Player is standing on ground
 if place_meeting(x, y + 1, object_collideable) || place_meeting(x, y + 1, object_platform)
 {
+	
+	var moving_collideable = instance_position(x, y+1, object_collideable);
+	if moving_collideable != noone
+	{
+		phy_position_x += moving_collideable.phy_speed_x;
+	}
+	
+	
 	// Limit speed more aggresively if the player is on the ground
 	if (!keyboard_check(control_left) && !keyboard_check(control_right))
 		phy_speed_x *= x_deceleration;
@@ -104,5 +113,3 @@ if x <= 0
 {
 	physics_apply_force(x, y, x_force*10, 0);
 }
-
-
