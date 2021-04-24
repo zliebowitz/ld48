@@ -7,8 +7,6 @@
 x_force = 60;
 y_force = 25;
 x_deceleration = 0.85;
-y_player_gravity = 125;
-y_player_jump_gravity = y_player_gravity * 0.5;
 
 // How fast player can move (pixels/second)
 max_x_speed = 3;

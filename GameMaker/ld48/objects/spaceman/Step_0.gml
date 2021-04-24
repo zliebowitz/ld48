@@ -25,11 +25,9 @@ else
 // Lower gravity when jump is held at the peak of the jump
 if (controller_state.jump && (abs(phy_speed_y <= jump_peak_speed)))
 {
-	physics_world_gravity(0, y_player_jump_gravity);
-}
-else
-{
-	physics_world_gravity(0, y_player_gravity);
+	// 125 is room gravity.
+	// TODO: Can't figure out how to acces the varible.
+	physics_apply_force(x,y, 0, -125/2);
 }
 
 // Jump Input
