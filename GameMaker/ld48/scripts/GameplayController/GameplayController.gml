@@ -1,6 +1,24 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function GameplayController(){
+	
+	if !variable_global_exists("controller_id") || global.controller_id < 0 || !gamepad_is_connected(global.controller_id)
+	{
+		global.controller_id = -1;
+		var updated = false;
+		
+		for (i = 0; i < gamepad_get_device_count(); i++)
+		{
+			if gamepad_is_connected(i)
+			{
+				global.controller_id = i;
+				updated = true;
+				gamepad_set_axis_deadzone(i, .3)
+				break;
+			}
+		}
+	}
+	
   var x_dir = 0;
   if keyboard_check(ord("A"))
   {
@@ -15,6 +33,15 @@ function GameplayController(){
   
   // TODO: to more easily fit controller api, switch to key pressed.
   var attack = keyboard_check_pressed(vk_enter);
+
+
+if global.controller_id != -1
+{
+	var cid = global.controller_id;
+	x_dir = gamepad_axis_value(cid, gp_axislh);
+	jump = gamepad_button_check(cid, gp_face1);
+	attack = gamepad_button_check(cid, gp_face2);
+}
 
  var state = {
 	 x_dir: x_dir,
