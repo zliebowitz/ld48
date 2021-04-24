@@ -44,6 +44,14 @@ if jump_buffer_count < jump_buffer
 // Player is standing on ground
 if place_meeting(x, y + 1, object_collideable) || place_meeting(x, y + 1, object_platform)
 {
+	
+	// Add the speed of the wall collidable the player is on to their x pos
+	var moving_collideable = instance_position(x, y+1, object_collideable);
+	if moving_collideable != noone
+	{
+		phy_position_x += moving_collideable.phy_speed_x;
+	}
+	
 	// Limit speed more aggresively if the player is on the ground
 	if (x_in == 0)
 		phy_speed_x *= x_deceleration;
