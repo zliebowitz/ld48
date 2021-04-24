@@ -2,30 +2,27 @@
 // You can write your code in this editor
 
 
-
-// Getting some intial controls working.
-if keyboard_check(ord("A"))//LEFT
-{
-	hspeed = -walk_speed;
+// Getting some intial controls, collision, and physics going.
+if keyboard_check(ord("A")) && place_free(x - space_ahead,y)
+{ // Move left
+	x -= walk_speed;
 }
-else if keyboard_check(ord("D")) //Right
+else if keyboard_check(ord("D")) && place_free(x + space_ahead,y)
+{ // move right
+	x += walk_speed;
+}
+
+
+if keyboard_check_pressed(vk_space) && !place_free(x,y+space_ahead)
+{ // Jump
+	vspeed = -jump_height;
+}
+
+if place_free(x,y + space_ahead)
 {
-	hspeed = walk_speed;
+	gravity = 1;
 }
 else
 {
-	hspeed = 0;
-}
-
-if keyboard_check(ord("W")) //Up
-{
-	vspeed = -walk_speed;
-}
-else if keyboard_check(ord("S")) //Down
-{
-	vspeed = walk_speed;
-}
-else
-{
-	vspeed = 0;
+	gravity = 0;	
 }

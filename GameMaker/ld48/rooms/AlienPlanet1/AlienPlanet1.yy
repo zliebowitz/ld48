@@ -3,7 +3,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":true,"xview":1024,"yview":0,"wview":640,"hview":360,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":true,"xview":1024,"yview":0,"wview":640,"hview":360,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":{"name":"spaceman","path":"objects/spaceman/spaceman.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"assets":[
-        {"spriteId":{"name":"sprite_white","path":"sprites/sprite_white/sprite_white.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":25.0,"scaleY":21.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":144.0,"resourceVersion":"1.0","name":"graphic_52890D18","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"sprite_white","path":"sprites/sprite_white/sprite_white.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":25.0,"scaleY":21.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":776.0,"y":80.0,"resourceVersion":"1.0","name":"graphic_52890D18","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
     {"assets":[
         {"spriteId":{"name":"sprite_grayscale","path":"sprites/sprite_grayscale/sprite_grayscale.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":2577.0,"scaleY":5.84375,"animationSpeed":1.0,"colour":4278190080,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-8.0,"y":0.0,"resourceVersion":"1.0","name":"graphic_150D78DB","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -74,7 +74,7 @@
     "inheritPhysicsSettings": false,
     "PhysicsWorld": false,
     "PhysicsWorldGravityX": 0.0,
-    "PhysicsWorldGravityY": 10.0,
+    "PhysicsWorldGravityY": 3.0,
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
