@@ -5,6 +5,7 @@
     {"id":{"name":"sprite_white","path":"sprites/sprite_white/sprite_white.yy",},"order":0,},
     {"id":{"name":"object_opening_crawl_text","path":"objects/object_opening_crawl_text/object_opening_crawl_text.yy",},"order":0,},
     {"id":{"name":"object_opening_crawl_crawler","path":"objects/object_opening_crawl_crawler/object_opening_crawl_crawler.yy",},"order":1,},
+    {"id":{"name":"sprite_grayscale","path":"sprites/sprite_grayscale/sprite_grayscale.yy",},"order":1,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"AlienPlanet1","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},"order":1,},
     {"id":{"name":"object_fade_out","path":"objects/object_fade_out/object_fade_out.yy",},"order":1,},
