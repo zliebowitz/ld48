@@ -38,3 +38,16 @@ if place_meeting(x, y + 1, object_wall) && jump_buffer_count < jump_buffer
 
 // Clamp movement speed so we don't accelerate forever
 phy_speed_x = clamp(phy_speed_x, -max_x_speed, max_x_speed);
+
+
+//room borders
+if x+sprite_width >= room_width 
+{
+	physics_apply_force(x, y, -x_force*10, 0);	
+}
+if x <= 0 
+{
+	physics_apply_force(x, y, x_force*10, 0);
+}
+
+
