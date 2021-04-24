@@ -22,6 +22,7 @@ function GameplayController()
 				break;
 			}
 		}
+		global.attack_was_pressed = false;
 	}
 	
 	if global.controller_id != -1
@@ -30,6 +31,11 @@ function GameplayController()
 		x_dir = gamepad_axis_value(cid, gp_axislh);
 		jump = gamepad_button_check(cid, gp_face1);
 		attack = gamepad_button_check(cid, gp_face2);
+		if (global.attack_was_pressed)
+		{
+			global.attack_was_pressed = attack;
+			attack = false;
+		}
 	}
 	
 	if keyboard_check(ord("A"))
