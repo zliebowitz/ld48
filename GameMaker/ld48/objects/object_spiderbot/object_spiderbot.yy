@@ -25,8 +25,8 @@
   "physicsShapePoints": [
     {"x":23.0,"y":64.0,},
     {"x":248.0,"y":64.0,},
-    {"x":248.0,"y":112.0,},
-    {"x":23.0,"y":112.0,},
+    {"x":248.0,"y":103.0,},
+    {"x":23.0,"y":103.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
