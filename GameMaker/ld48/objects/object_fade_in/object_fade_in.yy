@@ -1,9 +1,6 @@
 {
-  "spriteId": {
-    "name": "sprite_white",
-    "path": "sprites/sprite_white/sprite_white.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,15 +17,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "walls",
-    "path": "folders/Objects/walls.yy",
+    "name": "transitions",
+    "path": "folders/Objects/transitions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_wall",
+  "name": "object_fade_in",
   "tags": [],
   "resourceType": "GMObject",
 }
