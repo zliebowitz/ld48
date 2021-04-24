@@ -1,6 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"object_wall","path":"objects/object_wall/object_wall.yy",},"order":2,},
+    {"id":{"name":"sprite_white","path":"sprites/sprite_white/sprite_white.yy",},"order":0,},
+    {"id":{"name":"object_opening_crawl_text","path":"objects/object_opening_crawl_text/object_opening_crawl_text.yy",},"order":0,},
+    {"id":{"name":"object_opening_crawl_crawler","path":"objects/object_opening_crawl_crawler/object_opening_crawl_crawler.yy",},"order":1,},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
+    {"id":{"name":"AlienPlanet","path":"rooms/AlienPlanet/AlienPlanet.yy",},"order":1,},
+    {"id":{"name":"OpeningCrawl","path":"rooms/OpeningCrawl/OpeningCrawl.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -16,7 +22,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"OpeningCrawl","path":"rooms/OpeningCrawl/OpeningCrawl.yy",},},
+    {"roomId":{"name":"AlienPlanet","path":"rooms/AlienPlanet/AlienPlanet.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -33,6 +40,8 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/opening_crawl.yy","order":1,"resourceVersion":"1.0","name":"opening_crawl","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/group1.yy","order":3,"resourceVersion":"1.0","name":"group1","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -45,7 +54,7 @@
     "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
-  "name": "ld48",
+  "name": "LD48",
   "tags": [],
   "resourceType": "GMProject",
 }
