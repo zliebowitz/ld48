@@ -7,8 +7,6 @@
 x_force = 60;
 y_force = 25;
 x_deceleration = 0.85;
-y_player_gravity = 125;
-y_player_jump_gravity = y_player_gravity * 0.5;
 
 // How fast player can move (pixels/second)
 max_x_speed = 3;
@@ -25,11 +23,6 @@ player_direction = 1;
 jump_buffer = 12;
 // Count placeholder (should be 0 here)
 jump_buffer_count = 0;
-
-// Controls
-control_left = ord("A");
-control_right = ord("D");
-control_jump = vk_space;
 
 // Prevent player from falling over.
 // Disable this if you're making a face dragging game.
