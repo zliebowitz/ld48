@@ -21,7 +21,7 @@ if keyboard_check(ord("W")) //Up
 {
 	vspeed = -walk_speed;
 }
-else if keyboard_check(ord("W")) //Down
+else if keyboard_check(ord("S")) //Down
 {
 	vspeed = walk_speed;
 }
