@@ -60,6 +60,11 @@ if ((abs(phy_speed_x) >= max_x_speed) || (!keyboard_check(control_left) && !keyb
 	phy_speed_x *= x_deceleration;
 }
 
+if (keyboard_check_pressed(vk_enter))
+{
+	// sprite-width is negative when facing right.
+	instance_create_layer(x + sign(sprite_width) * 5, y, layer, spaceman_attack);
+}
 
 //room borders
 if x+sprite_width >= room_width 
