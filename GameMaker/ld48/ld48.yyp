@@ -38,6 +38,7 @@
     {"id":{"name":"AlienPlanet1Crawl","path":"rooms/AlienPlanet1Crawl/AlienPlanet1Crawl.yy",},"order":1,},
     {"id":{"name":"object_collideable","path":"objects/object_collideable/object_collideable.yy",},"order":7,},
     {"id":{"name":"sprite_avatar_running","path":"sprites/sprite_avatar_running/sprite_avatar_running.yy",},"order":0,},
+    {"id":{"name":"MenuController","path":"scripts/MenuController/MenuController.yy",},"order":1,},
     {"id":{"name":"sound_opening_crawl_music","path":"sounds/sound_opening_crawl_music/sound_opening_crawl_music.yy",},"order":1,},
     {"id":{"name":"AlienPlanet1","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},"order":1,},
     {"id":{"name":"sprite_spiderbot","path":"sprites/sprite_spiderbot/sprite_spiderbot.yy",},"order":7,},
@@ -61,8 +62,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"OpeningCrawl","path":"rooms/OpeningCrawl/OpeningCrawl.yy",},},
-    {"roomId":{"name":"SpiderbotTest","path":"rooms/SpiderbotTest/SpiderbotTest.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"roomId":{"name":"SpiderbotTest","path":"rooms/SpiderbotTest/SpiderbotTest.yy",},},
     {"roomId":{"name":"AlienPlanet1","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},},
     {"roomId":{"name":"AlienPlanet2","path":"rooms/AlienPlanet2/AlienPlanet2.yy",},},
     {"roomId":{"name":"AlienPlanet5Crawl","path":"rooms/AlienPlanet5Crawl/AlienPlanet5Crawl.yy",},},
