@@ -58,27 +58,27 @@ switch(room)
 {
 	case OpeningCrawl:
 		crawl_text = opening_text;
-		room_height=1000
+		room_height=1000;
 		break;
 	case AlienPlanet1Crawl:
 		crawl_text = alien_planet1_text;
-		room_height=600
+		room_height=600;
 		break;
 	case AlienPlanet2Crawl:
 		crawl_text = alien_planet2_text;
-		room_height=600
+		room_height=600;
 		break;
 	case AlienPlanet3Crawl:
 		crawl_text = alien_planet3_text;
-		room_height=600
+		room_height=600;
 		break;
 	case AlienPlanet4Crawl:
 		crawl_text = alien_planet4_text;
-		room_height=600
+		room_height=600;
 		break;
 	case AlienPlanet5Crawl:
 		crawl_text = alien_planet5_text;
-		room_height=600
+		room_height=600;
 		break;
 	default:
 		crawl_text = "";

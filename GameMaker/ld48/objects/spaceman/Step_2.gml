@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 var bullet_id = (instance_place(x,y,object_bullet)) // check for a collision and return the id of the bullet inside bullet_id
 if(bullet_id != noone)
 {
@@ -18,10 +17,3 @@ if(bullet_id != noone)
 		global.spaceman_health = 10;
 	}
 }
-
-
-		
-	
-	
-
-
