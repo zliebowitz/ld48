@@ -18,8 +18,11 @@ for (i = 0; i < num_options; i++)
 		var color = selected_color;
 	else
 		var color = unselected_color;
-		
-	draw_text_transformed_color((1 + i) * view_wport[0] / (num_options + 1), 3 * view_hport[0] / 5, options[i], 1, 1, 0, color, color, color, color, 1);
+
+	if (i == 0)
+		draw_text_transformed_color((1 + i) * view_wport[0] / (num_options + 1), 3 * view_hport[0] / 5, options[i], 1, 1, 0, color, color, color, color, 1);
+	if (i == 1)
+		draw_text_transformed_color((1 + i) * view_wport[0] / (num_options + 1) + 3, 3 * view_hport[0] / 5, options[i], 1, 1, 0, color, color, color, color, 1);
 }
 
 draw_set_halign(fa_left);

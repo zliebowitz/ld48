@@ -37,6 +37,7 @@
     {"id":{"name":"object_platform","path":"objects/object_platform/object_platform.yy",},"order":9,},
     {"id":{"name":"sound_menu_select","path":"sounds/sound_menu_select/sound_menu_select.yy",},"order":1,},
     {"id":{"name":"sprite_health_background","path":"sprites/sprite_health_background/sprite_health_background.yy",},"order":10,},
+    {"id":{"name":"sprite_Ixcarth","path":"sprites/sprite_Ixcarth/sprite_Ixcarth.yy",},"order":14,},
     {"id":{"name":"GameplayController","path":"scripts/GameplayController/GameplayController.yy",},"order":0,},
     {"id":{"name":"object_opening_crawl_text","path":"objects/object_opening_crawl_text/object_opening_crawl_text.yy",},"order":0,},
     {"id":{"name":"object_opening_crawl_crawler","path":"objects/object_opening_crawl_crawler/object_opening_crawl_crawler.yy",},"order":1,},
