@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-title = "Ixcar'th";
+title = "";
 
 options = ["Start", "End"];
 start_option = 0;

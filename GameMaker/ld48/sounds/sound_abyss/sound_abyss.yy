@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sound_abyss.wav",
-  "duration": 12.77246,
+  "duration": 12.7728,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

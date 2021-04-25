@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_boss_white",
-    "path": "sprites/sprite_boss_white/sprite_boss_white.yy",
+    "name": "sprite_annoying_cube",
+    "path": "sprites/sprite_annoying_cube/sprite_annoying_cube.yy",
   },
   "solid": true,
   "visible": true,
