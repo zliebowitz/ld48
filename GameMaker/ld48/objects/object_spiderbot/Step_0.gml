@@ -1,6 +1,29 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+//if(room != AlienPlanet1 || room != AlienPlanet2)
+//{
+
+firerain_step++;
+if(firerain_step >= firerain_delay)
+{
+	for(i = 0; i < firerain_count; i++)
+	{
+		firebullet = instance_create_depth(x+sprite_width/2, y, 0, object_firebullet);
+		var bullet_dir=random_range(45,135);
+		firebullet.phy_speed_y = -(dsin(bullet_dir) * firerain_initial_speed);
+		firebullet.phy_speed_x = (dcos(bullet_dir) * firerain_initial_speed);
+		firerain_step=0
+	}
+}
+
+	
+	
+//}
+
+
+
 if(room != AlienPlanet1)
 {
 	
@@ -21,7 +44,9 @@ if(room != AlienPlanet1)
 		phy_speed_y = -10
 		jump = 0;	
 	}
+	
 }
+
 
 
 if abs(distance_to_object(global.player)) <= 70 && moveTime <= 0
@@ -29,7 +54,6 @@ if abs(distance_to_object(global.player)) <= 70 && moveTime <= 0
 	phy_speed_x = 0;
 	moveTime = 100;
 	moveLeft = !moveLeft;
-	
 }
 
 // Attacks

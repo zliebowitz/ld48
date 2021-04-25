@@ -10,6 +10,13 @@ maxSpeedX = 1;
 
 jump = 0;
 
+
 moveLeft = true;
+
+firerain_step = 500;
+firerain_initial_speed = 10
+firerain_delay = 1000
+firerain_count = 20
+
 
 basey = ystart
