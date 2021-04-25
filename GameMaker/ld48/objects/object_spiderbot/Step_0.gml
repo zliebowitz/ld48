@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//if(room != AlienPlanet1)
-//{
+if(room != AlienPlanet1)
+{
 	
 	if(y >= basey)
 	{
@@ -21,7 +21,7 @@
 		phy_speed_y = -10
 		jump = 0;	
 	}
-//}
+}
 
 
 if abs(distance_to_object(global.player)) <= 70 && moveTime <= 0
