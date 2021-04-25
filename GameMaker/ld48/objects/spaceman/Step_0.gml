@@ -8,8 +8,8 @@
 
 var controller_state = GameplayController();
 
-
 var x_in = controller_state.x_dir;
+
 if (x_in != 0)
 {
 	image_xscale = sign(x_in);
@@ -88,11 +88,12 @@ if abs(phy_speed_x) >= max_x_speed || x_in == 0
 	phy_speed_x *= x_deceleration;
 }
 
-if (controller_state.attack)
+if (controller_state.attack && attack_delay_count == max_attack_delay_count)
 {
 	// sprite-width is negative when facing right.
-	var spaceman_attack_instance = instance_create_layer(x + sign(sprite_width) * 5, y, layer, spaceman_attack);
+	var spaceman_attack_instance = instance_create_layer(x - sign(sprite_width) * 4, y + 3, layer, spaceman_attack);
 	spaceman_attack_instance.image_xscale = image_xscale;
+	attack_delay_count = 0;
 }
 
 //room borders
@@ -105,4 +106,4 @@ if x <= 0
 	physics_apply_force(x, y, x_force*10, 0);
 }
 
-
+attack_delay_count = min(attack_delay_count + 1, max_attack_delay_count);

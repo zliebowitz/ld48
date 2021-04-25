@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sprite_avatar_attacking","path":"sprites/sprite_avatar_attacking/sprite_avatar_attacking.yy",},"order":2,},
     {"id":{"name":"object_wall","path":"objects/object_wall/object_wall.yy",},"order":0,},
     {"id":{"name":"sprite_platform","path":"sprites/sprite_platform/sprite_platform.yy",},"order":3,},
     {"id":{"name":"AlienPlanet2","path":"rooms/AlienPlanet2/AlienPlanet2.yy",},"order":3,},

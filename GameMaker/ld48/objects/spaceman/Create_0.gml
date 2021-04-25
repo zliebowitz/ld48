@@ -28,4 +28,8 @@ phy_fixed_rotation=true;
 // Set the global gravity to 125 downwards.
 physics_world_gravity(0, 125);
 
+// How long the player must wait before being able to attack again.
+max_attack_delay_count = room_speed / 2;
+attack_delay_count = max_attack_delay_count;
+
 global.player = self;
