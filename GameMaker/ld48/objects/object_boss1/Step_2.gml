@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+x = orig_x;
+
 if(global.boss_hittable == true)
 {
 	if place_meeting(x, y, spaceman_attack) && shake_count == max_shake_count
@@ -13,7 +15,15 @@ if(global.boss_hittable == true)
 		if (monster_health <= 0)
 		{
 			instance_destroy();
-			audio_play_sound(sound_boss_death, 20, false)
+			audio_play_sound(sound_boss_death, 20, false);
+			
+			for (var j = 0; j < sprite_height / 8; j++)
+			{
+				for (var i = 0; i < sprite_width / 8; i++)
+				{
+					instance_create_depth(orig_x + 8 * i, y + 8 * j, depth, object_white_particle);
+				}
+			}
 		}
 	}
 }

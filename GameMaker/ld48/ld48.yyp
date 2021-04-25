@@ -79,6 +79,7 @@
     {"id":{"name":"sprite_avatar_running","path":"sprites/sprite_avatar_running/sprite_avatar_running.yy",},"order":0,},
     {"id":{"name":"ground_3_3","path":"sprites/ground_3_3/ground_3_3.yy",},"order":5,},
     {"id":{"name":"MenuController","path":"scripts/MenuController/MenuController.yy",},"order":1,},
+    {"id":{"name":"object_white_particle","path":"objects/object_white_particle/object_white_particle.yy",},"order":18,},
     {"id":{"name":"sound_slash","path":"sounds/sound_slash/sound_slash.yy",},"order":6,},
     {"id":{"name":"sound_opening_crawl_music","path":"sounds/sound_opening_crawl_music/sound_opening_crawl_music.yy",},"order":1,},
     {"id":{"name":"sprite_spaceman_health","path":"sprites/sprite_spaceman_health/sprite_spaceman_health.yy",},"order":8,},
