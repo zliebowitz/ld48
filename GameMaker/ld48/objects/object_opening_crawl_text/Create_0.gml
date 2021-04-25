@@ -13,17 +13,17 @@ opening_text =
 				"the star greatly shrinks in size,\n" +  
 				"and its color\n" + 
 				"turns to a dark purple.\n" +
-				"The energry of the star greatly\n" +
+				"The energy of the star greatly\n" +
 				"diminishes, soon freezing all planets\n" +
-				"that orbit the afflicted star. \n\n\n\n\n\n\n" +
-				"A lone Rim Explorer travels deep into \n" +
-				"the reaches of Plauge Space,\n" +
+				"that orbit the afflicted star.\n\n\n\n\n\n" +
+				"A lone Rim Explorer travels deep into\n" +
+				"the reaches of Plauge Space\n" +
 				"to find the cause\n" +
-				"of the mysterious disease\n\n";
+				"of the mysterious disease.\n\n";
 
 alien_planet1_text = 
 				"[Dimensional Synapse]\n" +
-                "Collects power from millions of stars,\n" +
+                "Collects power from millions of stars\n" +
                 "and creates a permanent connection from\n" +
                 "our realm to Enclosed Space.\n\n";
 
@@ -43,14 +43,14 @@ alien_planet3_text =
 				
 alien_planet4_text = 
 				"[Anoids]\n" +
-                "Species who excavated the Dimensional Synapse,\n" +
+                "Species who excavated the Dimensional Synapse\n" +
                 "and accidentally activated it.\n" +
                 "They dissapeared after the activation.\n\n";
 
 
 alien_planet5_text = 
-				"[Illix] - Long dead civilization,\n" +
-                "beings who contstructed\n" +
+				"[Illix] - Long dead civilization\n" +
+                "with beings who contstructed\n" +
                 "the Dimensional Synapse.\n\n";
 
 
