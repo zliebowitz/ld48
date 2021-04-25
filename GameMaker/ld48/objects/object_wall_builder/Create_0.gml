@@ -45,6 +45,8 @@ for (var xPos = 1; xPos < room_width/gridSize - 1; xPos++)
 			if localArea_12 + localArea_21  + localArea_23 + localArea_32 < 3
 				wallGrid[xPos, yPos] = 1;
 			
+			color = instance_position(xPos*gridSize+3, yPos*gridSize+3, object_autowall).image_blend;
+			
 			
 			
 			// Generate surface noise
