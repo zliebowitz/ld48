@@ -22,9 +22,9 @@ opening_text =
 				"of the mysterious disease\n\n";
 
 alien_planet1_text = 
-				"[Dimensional Synapse]]\n" +
-                "Collects power from millions of stars,]\n" +
-                "and creates a permanent connection from]\n" +
+				"[Dimensional Synapse]\n" +
+                "Collects power from millions of stars,\n" +
+                "and creates a permanent connection from\n" +
                 "our realm to Enclosed Space.\n\n";
 
 alien_planet2_text = 

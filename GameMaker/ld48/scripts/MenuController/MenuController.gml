@@ -34,6 +34,18 @@ function MenuController()
 		select |= gamepad_button_check(cid, gp_face3);
 		menu = gamepad_button_check(cid, gp_start);
 		cancel = gamepad_button_check(cid, gp_face2);
+		
+		if (x_dir == 0)
+		{
+			if (gamepad_button_check(cid, gp_padl))
+			{
+				x_dir = -1;
+			}
+			else if (gamepad_button_check(cid, gp_padr))
+			{
+				x_dir = 1;
+			}
+		}
 	}
 	
 	if keyboard_check(ord("A")) || keyboard_check(vk_left)
