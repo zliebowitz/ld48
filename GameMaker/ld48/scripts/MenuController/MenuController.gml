@@ -32,11 +32,11 @@ function MenuController()
 		select |= gamepad_button_check(cid, gp_face2);
 	}
 	
-	if keyboard_check(ord("A"))
+	if keyboard_check(ord("A")) || keyboard_check(vk_left)
 	{
 		x_dir = -1;
 	}
-	else if keyboard_check(ord("D"))
+	else if keyboard_check(ord("D")) || keyboard_check(vk_right)
 	{
 		x_dir = 1;
 	}

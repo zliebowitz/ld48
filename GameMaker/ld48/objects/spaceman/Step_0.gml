@@ -9,15 +9,16 @@
 var controller_state = GameplayController();
 
 var x_in = controller_state.x_dir;
-
-if (x_in != 0)
+// Running
+if (x_in != 0 && attack_delay_count == max_attack_delay_count )
 {
 	image_xscale = sign(x_in);
 	sprite_index = sprite_avatar_running;
 	physics_apply_force(x, y, x_in * x_force, 0)
 }
 // Idle
-else
+else if (attack_delay_count == max_attack_delay_count &&
+		 !controller_state.jump)
 {
 	sprite_index = sprite_avatar_idle;
 }
@@ -34,6 +35,7 @@ if (controller_state.jump && (abs(phy_speed_y <= jump_peak_speed)))
 if controller_state.jump && jump_buffer_count >= jump_buffer
 {
    jump_buffer_count = 0;
+   sprite_index = sprite_avatar_running;
 }
 // Check / increment jump buffer
 if jump_buffer_count < jump_buffer
@@ -88,12 +90,15 @@ if abs(phy_speed_x) >= max_x_speed || x_in == 0
 	phy_speed_x *= x_deceleration;
 }
 
+// Handle attack
 if (controller_state.attack && attack_delay_count == max_attack_delay_count)
 {
 	// sprite-width is negative when facing right.
-	var spaceman_attack_instance = instance_create_layer(x - sign(sprite_width) * 4, y + 3, layer, spaceman_attack);
-	spaceman_attack_instance.image_xscale = image_xscale;
+	instance_create_layer(x - sign(sprite_width) * 4, y + 3, layer, spaceman_attack);
 	attack_delay_count = 0;
+	sprite_index = sprite_avatar_attacking;
+	image_index = 0;
+	physics_apply_force(x, y, -image_xscale * 10 * x_force, 0);
 }
 
 //room borders

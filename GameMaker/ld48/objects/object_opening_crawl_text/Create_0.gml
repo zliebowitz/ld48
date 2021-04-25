@@ -15,7 +15,7 @@ opening_text =
 				"turns to a dark purple.\n" +
 				"The energry of the star greatly\n" +
 				"diminishes, soon freezing all planets\n" +
-				"that orbit the afflicted star. \n\n\n\n\n\n\n\n\n\n" +
+				"that orbit the afflicted star. \n\n\n\n\n\n\n" +
 				"A lone Rim Explorer travels deep into \n" +
 				"the reaches of Plauge Space,\n" +
 				"to find the cause\n" +

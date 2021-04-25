@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sound_opening_crawl_music.wav",
-  "duration": 21.0272,
+  "duration": 21.0362015,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

@@ -25,7 +25,7 @@
     {"id":{"name":"AlienPlanet3Crawl","path":"rooms/AlienPlanet3Crawl/AlienPlanet3Crawl.yy",},"order":3,},
     {"id":{"name":"sprite_avatar_idle","path":"sprites/sprite_avatar_idle/sprite_avatar_idle.yy",},"order":1,},
     {"id":{"name":"sprite_grayscale","path":"sprites/sprite_grayscale/sprite_grayscale.yy",},"order":1,},
-    {"id":{"name":"sprite_spaceman_attack","path":"sprites/sprite_spaceman_attack/sprite_spaceman_attack.yy",},"order":5,},
+    {"id":{"name":"sprite_spaceman_attack","path":"sprites/sprite_spaceman_attack/sprite_spaceman_attack.yy",},"order":3,},
     {"id":{"name":"object_boss_parent","path":"objects/object_boss_parent/object_boss_parent.yy",},"order":8,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"object_opening_crawl_music","path":"objects/object_opening_crawl_music/object_opening_crawl_music.yy",},"order":2,},

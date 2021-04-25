@@ -6,3 +6,8 @@ if (controller_state.select)
 {
 	object_fade_out.room_id = next_room;
 }
+
+if (y > 1120)
+{
+	object_fade_out.room_id = next_room;
+}
