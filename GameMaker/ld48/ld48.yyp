@@ -9,7 +9,7 @@
     {"id":{"name":"object_fade_in","path":"objects/object_fade_in/object_fade_in.yy",},"order":0,},
     {"id":{"name":"spaceman","path":"objects/spaceman/spaceman.yy",},"order":5,},
     {"id":{"name":"sprite_blafck","path":"sprites/sprite_blafck/sprite_blafck.yy",},"order":4,},
-    {"id":{"name":"AlienPlanet1Test","path":"rooms/AlienPlanet1Test/AlienPlanet1Test.yy",},"order":8,},
+    {"id":{"name":"AlienPlanet1","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},"order":8,},
     {"id":{"name":"sound_bullet_hit","path":"sounds/sound_bullet_hit/sound_bullet_hit.yy",},"order":4,},
     {"id":{"name":"ground_1_2","path":"sprites/ground_1_2/ground_1_2.yy",},"order":0,},
     {"id":{"name":"background_controller_1","path":"objects/background_controller_1/background_controller_1.yy",},"order":0,},
@@ -73,7 +73,7 @@
     {"id":{"name":"sprite_spaceman_health","path":"sprites/sprite_spaceman_health/sprite_spaceman_health.yy",},"order":8,},
     {"id":{"name":"sprite_health_border","path":"sprites/sprite_health_border/sprite_health_border.yy",},"order":9,},
     {"id":{"name":"sound_slash_hit","path":"sounds/sound_slash_hit/sound_slash_hit.yy",},"order":7,},
-    {"id":{"name":"AlienPlanet1","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},"order":1,},
+    {"id":{"name":"AlienPlanet1Old","path":"rooms/AlienPlanet1Old/AlienPlanet1Old.yy",},"order":1,},
     {"id":{"name":"sprite_spiderbot","path":"sprites/sprite_spiderbot/sprite_spiderbot.yy",},"order":7,},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},"order":2,},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":15,},
@@ -95,7 +95,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"OpeningCrawl","path":"rooms/OpeningCrawl/OpeningCrawl.yy",},},
-    {"roomId":{"name":"AlienPlanet1Test","path":"rooms/AlienPlanet1Test/AlienPlanet1Test.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"AlienPlanet1Crawl","path":"rooms/AlienPlanet1Crawl/AlienPlanet1Crawl.yy",},},
     {"roomId":{"name":"AlienPlanet1","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},},
@@ -108,6 +107,7 @@
     {"roomId":{"name":"AlienPlanet5Crawl","path":"rooms/AlienPlanet5Crawl/AlienPlanet5Crawl.yy",},},
     {"roomId":{"name":"AlienPlanet5","path":"rooms/AlienPlanet5/AlienPlanet5.yy",},},
     {"roomId":{"name":"SpiderbotTest","path":"rooms/SpiderbotTest/SpiderbotTest.yy",},},
+    {"roomId":{"name":"AlienPlanet1Old","path":"rooms/AlienPlanet1Old/AlienPlanet1Old.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
