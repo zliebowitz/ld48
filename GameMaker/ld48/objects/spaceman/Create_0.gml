@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+global.spaceman_health = 100
 
 // Forces and Speeds
 // Acceleration and jumping forces
