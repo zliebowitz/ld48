@@ -31,6 +31,7 @@
     {"id":{"name":"sound_boss_death","path":"sounds/sound_boss_death/sound_boss_death.yy",},"order":3,},
     {"id":{"name":"object_music_player","path":"objects/object_music_player/object_music_player.yy",},"order":0,},
     {"id":{"name":"sprite_boss_white","path":"sprites/sprite_boss_white/sprite_boss_white.yy",},"order":2,},
+    {"id":{"name":"sprite_annoying_cube","path":"sprites/sprite_annoying_cube/sprite_annoying_cube.yy",},"order":15,},
     {"id":{"name":"main_menu_controller","path":"objects/main_menu_controller/main_menu_controller.yy",},"order":6,},
     {"id":{"name":"object_spiderbot","path":"objects/object_spiderbot/object_spiderbot.yy",},"order":13,},
     {"id":{"name":"sprite_spaceman_health_border","path":"sprites/sprite_spaceman_health_border/sprite_spaceman_health_border.yy",},"order":13,},
