@@ -12,7 +12,7 @@ var layerId = layer_create(depth-20);
 // Create a grid where all walls are
 for (var xPos = 0; xPos <= room_width/gridSize; xPos++)
 {
-	for (var yPos = 0; yPos <= room_width/gridSize; yPos++)
+	for (var yPos = 0; yPos <= room_height/gridSize; yPos++)
 	{
 		if instance_position(xPos * gridSize+3, yPos * gridSize+3, object_autowall)
 			wallGrid[xPos, yPos] = 0;
@@ -24,7 +24,7 @@ for (var xPos = 0; xPos <= room_width/gridSize; xPos++)
 
 for (var xPos = 1; xPos < room_width/gridSize - 1; xPos++)
 {
-	for (var yPos = 1; yPos < room_width/gridSize - 1; yPos++)
+	for (var yPos = 1; yPos < room_height/gridSize - 1; yPos++)
 	{
 		if (wallGrid[xPos, yPos] == 0)
 		{
