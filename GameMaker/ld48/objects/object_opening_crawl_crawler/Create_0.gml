@@ -12,6 +12,5 @@ switch(room)
 	case AlienPlanet2Crawl:
 		next_room = AlienPlanet2;
 	default:
-		
 		break;
 }
