@@ -125,3 +125,4 @@ if x <= 0
 }
 
 attack_delay_count = min(attack_delay_count + 1, max_attack_delay_count);
+last_phy_speed_y = phy_speed_y;
