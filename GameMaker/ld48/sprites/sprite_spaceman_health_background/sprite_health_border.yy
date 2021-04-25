@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 127,
   "bbox_top": 0,
-  "bbox_bottom": 3,
+  "bbox_bottom": 7,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1,
-  "height": 4,
+  "width": 128,
+  "height": 8,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cc401b04-6704-4482-9871-bfd8b5707460","path":"sprites/sprite_spaceman_health/sprite_spaceman_health.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cc401b04-6704-4482-9871-bfd8b5707460","path":"sprites/sprite_spaceman_health/sprite_spaceman_health.yy",},"LayerId":{"name":"2e4e7e20-979b-4252-be59-2d63e9eb645e","path":"sprites/sprite_spaceman_health/sprite_spaceman_health.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprite_spaceman_health","path":"sprites/sprite_spaceman_health/sprite_spaceman_health.yy",},"resourceVersion":"1.0","name":"cc401b04-6704-4482-9871-bfd8b5707460","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a47cc8b4-8ab7-4c72-8fda-3bd8eb6fa526","path":"sprites/sprite_health_border/sprite_health_border.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a47cc8b4-8ab7-4c72-8fda-3bd8eb6fa526","path":"sprites/sprite_health_border/sprite_health_border.yy",},"LayerId":{"name":"b20b0174-1599-41d2-ad75-3b0fed6d1d09","path":"sprites/sprite_health_border/sprite_health_border.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprite_health_border","path":"sprites/sprite_health_border/sprite_health_border.yy",},"resourceVersion":"1.0","name":"a47cc8b4-8ab7-4c72-8fda-3bd8eb6fa526","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprite_spaceman_health","path":"sprites/sprite_spaceman_health/sprite_spaceman_health.yy",},
+    "spriteId": {"name":"sprite_health_border","path":"sprites/sprite_health_border/sprite_health_border.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"491a9549-1d5f-45ed-95a1-0a928e8caf0f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc401b04-6704-4482-9871-bfd8b5707460","path":"sprites/sprite_spaceman_health/sprite_spaceman_health.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"05e4ab6a-075e-45c6-aba2-b7635e42ddb3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a47cc8b4-8ab7-4c72-8fda-3bd8eb6fa526","path":"sprites/sprite_health_border/sprite_health_border.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprite_spaceman_health","path":"sprites/sprite_spaceman_health/sprite_spaceman_health.yy",},
+    "parent": {"name":"sprite_health_border","path":"sprites/sprite_health_border/sprite_health_border.yy",},
     "resourceVersion": "1.3",
-    "name": "sprite_spaceman_health",
+    "name": "sprite_health_border",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2e4e7e20-979b-4252-be59-2d63e9eb645e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b20b0174-1599-41d2-ad75-3b0fed6d1d09","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprite_spaceman_health",
+  "name": "sprite_health_border",
   "tags": [],
   "resourceType": "GMSprite",
 }
