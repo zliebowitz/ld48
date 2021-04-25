@@ -37,6 +37,7 @@ if controller_state.jump && jump_buffer_count >= jump_buffer
 {
    jump_buffer_count = 0;
    sprite_index = sprite_avatar_running;
+   was_off_ground = true;
 }
 // Check / increment jump buffer
 if jump_buffer_count < jump_buffer
@@ -44,8 +45,10 @@ if jump_buffer_count < jump_buffer
    jump_buffer_count++;
 }
 
+var on_ground = place_meeting(x, y + 1, object_collideable) || place_meeting(x, y + 1, object_platform);
+
 // Player is standing on ground
-if place_meeting(x, y + 1, object_collideable) || place_meeting(x, y + 1, object_platform)
+if on_ground
 {
 	
 	// Add the speed of the wall collidable the player is on to their x pos
@@ -85,6 +88,11 @@ else if place_meeting(x - 1, y, object_collideable) && (jump_buffer_count < jump
 	audio_play_sound(sound_jump, 50, false);
 }
 
+if !on_ground
+{
+	was_off_ground = true;
+}
+
 // Clamp movement speed so we don't accelerate forever
 //phy_speed_x = clamp(phy_speed_x, -max_x_speed, max_x_speed);
 
@@ -117,3 +125,4 @@ if x <= 0
 }
 
 attack_delay_count = min(attack_delay_count + 1, max_attack_delay_count);
+last_phy_speed_y = phy_speed_y;

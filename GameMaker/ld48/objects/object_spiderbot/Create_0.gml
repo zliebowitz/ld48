@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 monster_health = 30
+monster_health_max = monster_health
 
 moveTime = 0;
 acceleration = .1;

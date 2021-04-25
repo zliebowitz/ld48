@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+
 // Forces and Speeds
 // Acceleration and jumping forces
 x_force = 60;
@@ -31,3 +33,6 @@ max_attack_delay_count = room_speed / 3;
 attack_delay_count = max_attack_delay_count;
 
 global.player = self;
+
+// since player enters most levels falling
+was_off_ground = true;
