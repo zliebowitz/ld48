@@ -29,6 +29,7 @@ if (controller_state.jump && (abs(phy_speed_y <= jump_peak_speed)))
 	// 125 is room gravity.
 	// TODO: Can't figure out how to acces the varible.
 	physics_apply_force(x,y, 0, -125/2);
+	
 }
 
 // Jump Input
@@ -64,6 +65,7 @@ if place_meeting(x, y + 1, object_collideable) || place_meeting(x, y + 1, object
 		phy_speed_y = 0;
 		physics_apply_impulse(x, y, 0, -y_force);
 		jump_buffer_count = jump_buffer;
+		audio_play_sound(sound_jump, 50, false);
    }
 }
 else if place_meeting(x + 1, y, object_collideable) && (jump_buffer_count < jump_buffer)
@@ -72,6 +74,7 @@ else if place_meeting(x + 1, y, object_collideable) && (jump_buffer_count < jump
 	phy_speed_x = 0;
 	physics_apply_impulse(x, y, -x_force * .5, -y_force);
 	jump_buffer_count = jump_buffer;
+	audio_play_sound(sound_jump, 50, false);
 }
 else if place_meeting(x - 1, y, object_collideable) && (jump_buffer_count < jump_buffer)
 {
@@ -79,6 +82,7 @@ else if place_meeting(x - 1, y, object_collideable) && (jump_buffer_count < jump
 	phy_speed_x = 0;
 	physics_apply_impulse(x, y, x_force * .5, -y_force);
 	jump_buffer_count = jump_buffer;
+	audio_play_sound(sound_jump, 50, false);
 }
 
 // Clamp movement speed so we don't accelerate forever
@@ -99,6 +103,7 @@ if (controller_state.attack && attack_delay_count == max_attack_delay_count)
 	sprite_index = sprite_avatar_attacking;
 	image_index = 0;
 	physics_apply_force(x, y, -image_xscale * 10 * x_force, 0);
+	audio_play_sound(sound_slash, 50,false)
 }
 
 //room borders
