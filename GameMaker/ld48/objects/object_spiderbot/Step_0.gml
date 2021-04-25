@@ -66,9 +66,9 @@ if moveTime >= 0
 else
 	phy_speed_x = 0;
 	
-//clamp(phy_speed_x, -maxAcceleration, maxAcceleration);
+//clamp(phy_speed_x, -maxSpeedX, maxSpeedX);
 
-if phy_speed_x > maxAcceleration
-	phy_speed_x = maxAcceleration;
-if phy_speed_x < -maxAcceleration
-	phy_speed_x = -maxAcceleration;
+if phy_speed_x > maxSpeedX
+	phy_speed_x = maxSpeedX;
+if phy_speed_x < -maxSpeedX
+	phy_speed_x = -maxSpeedX;

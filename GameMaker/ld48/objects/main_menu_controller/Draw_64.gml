@@ -4,7 +4,7 @@
 // assuming the default (fa_left) is used
 draw_set_halign(fa_center);
 
-draw_text_transformed_color(view_wport[0] / 2, view_hport[0] / 10, title, 1, 1, 0, c_white, c_white, c_white, c_white, 1)
+draw_text_transformed_color(view_wport[0] / 2, view_hport[0] / 10 + 48, title, 1, 1, 0, c_white, c_white, c_white, c_white, 1)
 
 var num_options = array_length(options);
 

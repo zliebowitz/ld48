@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_abyss.wav",
-  "duration": 12.77246,
+  "soundFile": "sound_ending_music.wav",
+  "duration": 44.5513725,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_abyss",
+  "name": "sound_ending_music",
   "tags": [],
   "resourceType": "GMSound",
 }

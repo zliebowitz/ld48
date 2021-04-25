@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_abyss.wav",
-  "duration": 12.77246,
+  "soundFile": "sound_boss_battle.wav",
+  "duration": 12.786315,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_abyss",
+  "name": "sound_boss_battle",
   "tags": [],
   "resourceType": "GMSound",
 }
