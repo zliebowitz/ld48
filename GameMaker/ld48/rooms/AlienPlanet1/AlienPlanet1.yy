@@ -27,6 +27,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"object_autowall","path":"objects/object_autowall/object_autowall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4281543710,"rotation":0.0,"scaleX":71.0,"scaleY":99.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1648.0,"y":912.0,"resourceVersion":"1.0","name":"inst_3EB9ACEC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_boss1","path":"objects/object_boss1/object_boss1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1496.0,"y":752.0,"resourceVersion":"1.0","name":"inst_11C7B2BE","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_autowall","path":"objects/object_autowall/object_autowall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4281543710,"rotation":0.0,"scaleX":6.0,"scaleY":82.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-8.0,"y":256.0,"resourceVersion":"1.0","name":"inst_43529597","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"object_spiderbot","path":"objects/object_spiderbot/object_spiderbot.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":520.0,"y":760.0,"resourceVersion":"1.0","name":"inst_5FD6E21F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"spaceman","path":"objects/spaceman/spaceman.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":192.0,"resourceVersion":"1.0","name":"inst_2ADD2055","tags":[],"resourceType":"GMRInstance",},
@@ -52,6 +53,7 @@
     {"name":"inst_3EB9ACEC","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},
     {"name":"inst_11C7B2BE","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},
     {"name":"inst_43529597","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},
+    {"name":"inst_5FD6E21F","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

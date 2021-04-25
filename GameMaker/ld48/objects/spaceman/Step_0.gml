@@ -28,7 +28,7 @@ if (controller_state.jump && (abs(phy_speed_y <= jump_peak_speed)))
 {
 	// 125 is room gravity.
 	// TODO: Can't figure out how to acces the varible.
-	physics_apply_force(x,y, 0, -125/2);
+	physics_apply_force(x,y, 0, -room_gravity/2);
 	
 }
 

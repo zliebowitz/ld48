@@ -5,10 +5,12 @@ monster_health = 30
 monster_health_max = monster_health
 
 moveTime = 0;
-acceleration = .1;
-maxAcceleration = 3;
+acceleration = .08;
+maxAcceleration = 2;
 
 jump = 0;
 
 moveLeft = true;
 moveSpeed = 3;
+
+basey = ystart
