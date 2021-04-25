@@ -30,11 +30,23 @@ function GameplayController()
 		var cid = global.controller_id;
 		x_dir = gamepad_axis_value(cid, gp_axislh);
 		jump = gamepad_button_check(cid, gp_face1);
-		attack = gamepad_button_check(cid, gp_face2);
+		attack = gamepad_button_check(cid, gp_face3);
 		if (global.attack_was_pressed)
 		{
 			global.attack_was_pressed = attack;
 			attack = false;
+		}
+		
+		if (x_dir == 0)
+		{
+			if (gamepad_button_check(cid, gp_padl))
+			{
+				x_dir = -1;
+			}
+			else if (gamepad_button_check(cid, gp_padr))
+			{
+				x_dir = 1;
+			}
 		}
 	}
 	

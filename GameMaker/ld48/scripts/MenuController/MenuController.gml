@@ -5,6 +5,8 @@ function MenuController()
 {
 	var x_dir = 0;
 	var select = false;
+	var menu = false;
+	var cancel = false;
 	
 	if !variable_global_exists("controller_id") || global.controller_id < 0 || !gamepad_is_connected(global.controller_id)
 	{
@@ -27,9 +29,11 @@ function MenuController()
 	if global.controller_id != -1
 	{
 		var cid = global.controller_id;
-		var x_dir = gamepad_axis_value(cid, gp_axislh);
+		x_dir = gamepad_axis_value(cid, gp_axislh);
 		select = gamepad_button_check(cid, gp_face1);
-		select |= gamepad_button_check(cid, gp_face2);
+		select |= gamepad_button_check(cid, gp_face3);
+		menu = gamepad_button_check(cid, gp_start);
+		cancel = gamepad_button_check(cid, gp_face2);
 	}
 	
 	if keyboard_check(ord("A")) || keyboard_check(vk_left)
@@ -45,6 +49,7 @@ function MenuController()
   
 	// TODO: to more easily fit controller api, switch to key pressed.
 	select |= keyboard_check_pressed(vk_enter);
+	menu |= keyboard_check(vk_escape);
 
 	if variable_global_exists("last_menu_x_dir")
 	{
@@ -60,7 +65,9 @@ function MenuController()
 	var state = {
 		left: x_dir <  0,
 		right: x_dir > 0,
-		select: select
+		select: select,
+		menu: menu,
+		cancel: cancel
 	};
 	
 	
