@@ -103,7 +103,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"OpeningCrawl","path":"rooms/OpeningCrawl/OpeningCrawl.yy",},},
-<<<<<<< HEAD
+    {"roomId":{"name":"AlienPlanet2Test","path":"rooms/AlienPlanet2Test/AlienPlanet2Test.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"AlienPlanet1Crawl","path":"rooms/AlienPlanet1Crawl/AlienPlanet1Crawl.yy",},},
     {"roomId":{"name":"AlienPlanet1","path":"rooms/AlienPlanet1/AlienPlanet1.yy",},},
@@ -117,7 +117,6 @@
     {"roomId":{"name":"AlienPlanet5","path":"rooms/AlienPlanet5/AlienPlanet5.yy",},},
     {"roomId":{"name":"SpiderbotTest","path":"rooms/SpiderbotTest/SpiderbotTest.yy",},},
     {"roomId":{"name":"AlienPlanet1Old","path":"rooms/AlienPlanet1Old/AlienPlanet1Old.yy",},},
-	{"roomId":{"name":"AlienPlanet2Test","path":"rooms/AlienPlanet2Test/AlienPlanet2Test.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
