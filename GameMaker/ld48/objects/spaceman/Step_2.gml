@@ -51,7 +51,7 @@ if (global.spaceman_health <= 0)
 			particle.image_yscale = .25;
 		}
 	}
-	global.spaceman_health = 10;
+	global.spaceman_health = global.spaceman_health_max;
 	audio_play_sound(sound_player_death,20,false)
 	visible = false;
 	// these two should siable all collisions.

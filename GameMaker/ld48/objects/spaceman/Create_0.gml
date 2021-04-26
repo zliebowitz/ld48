@@ -37,3 +37,5 @@ global.player = self;
 
 // since player enters most levels falling
 was_off_ground = true;
+
+global.spaceman_health = global.spaceman_health_max;
