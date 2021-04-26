@@ -62,7 +62,7 @@ function GameplayController()
 	jump |= keyboard_check(vk_space);
   
 	// TODO: to more easily fit controller api, switch to key pressed.
-	attack |= keyboard_check_pressed(vk_enter);
+	attack |= keyboard_check(vk_enter);
 
 	var state = {
 		x_dir: x_dir,
