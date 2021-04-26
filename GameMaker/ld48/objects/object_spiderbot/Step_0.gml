@@ -39,9 +39,9 @@ if(room != AlienPlanet1)
 			phy_speed_y++
 		}
 	}
-	if jump >= 300
+	if jump >= jump_delay
 	{	
-		phy_speed_y = -10
+		phy_speed_y = jump_initial_speed
 		jump = 0;	
 	}
 	
