@@ -16,6 +16,7 @@ if(firerain_step >= firerain_delay)
 		firebullet.phy_speed_x = (dcos(bullet_dir) * firerain_initial_speed);
 		firerain_step=0
 	}
+	audio_play_sound(sound_fire_shoot,50,false);
 }
 
 	
@@ -39,9 +40,9 @@ if(room != AlienPlanet1)
 			phy_speed_y++
 		}
 	}
-	if jump >= 300
+	if jump >= jump_delay
 	{	
-		phy_speed_y = -10
+		phy_speed_y = jump_initial_speed
 		jump = 0;	
 	}
 	

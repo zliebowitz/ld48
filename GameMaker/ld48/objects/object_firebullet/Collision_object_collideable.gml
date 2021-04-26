@@ -1,10 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-decay = 1000;
 
-max_fall_speed = 0.3
+instance_destroy(self)
 
-x_oscillation_multi = 10;
-
-
-
+audio_play_sound (sound_fire_hit_surface,50, false);
