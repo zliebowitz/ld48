@@ -45,12 +45,12 @@ alien_planet4_text =
 				"- Anoids -\n" +
                 "Species who excavated the Dimensional Synapse\n" +
                 "and accidentally activated it.\n" +
-                "They dissapeared after the activation.\n\n";
+                "They disappeared after the activation.\n\n";
 
 
 alien_planet5_text = 
 				"- Illix -\n" +
-				"A Long dead civilization\n" +
+				"A long dead civilization\n" +
                 "with beings who contstructed\n" +
                 "the Dimensional Synapse.\n\n";
 				

@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"object_abyss_2_music","path":"objects/object_abyss_2_music/object_abyss_2_music.yy",},"order":6,},
     {"id":{"name":"sprite_avatar_attacking","path":"sprites/sprite_avatar_attacking/sprite_avatar_attacking.yy",},"order":2,},
     {"id":{"name":"object_wall","path":"objects/object_wall/object_wall.yy",},"order":0,},
     {"id":{"name":"sound_boss_battle","path":"sounds/sound_boss_battle/sound_boss_battle.yy",},"order":3,},
@@ -54,6 +55,7 @@
     {"id":{"name":"object_sparkle","path":"objects/object_sparkle/object_sparkle.yy",},"order":22,},
     {"id":{"name":"object_pause_menu","path":"objects/object_pause_menu/object_pause_menu.yy",},"order":15,},
     {"id":{"name":"object_bgm_1","path":"objects/object_bgm_1/object_bgm_1.yy",},"order":1,},
+    {"id":{"name":"sound_abyss_2","path":"sounds/sound_abyss_2/sound_abyss_2.yy",},"order":5,},
     {"id":{"name":"surface_temple","path":"sprites/surface_temple/surface_temple.yy",},"order":2,},
     {"id":{"name":"background_controller_2","path":"objects/background_controller_2/background_controller_2.yy",},"order":1,},
     {"id":{"name":"Epilogue","path":"rooms/Epilogue/Epilogue.yy",},"order":6,},
