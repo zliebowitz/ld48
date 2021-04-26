@@ -99,7 +99,7 @@ if phy_speed_x < -maxSpeedX
 	phy_speed_x = -maxSpeedX;
 	
 
-if (distance_to_object(spaceman) < 1024 && !audio_is_playing(sound_boss_battle))
+if (distance_to_object(spaceman) < 512 && !audio_is_playing(sound_boss_battle))
 {
 	audio_stop_all();
 	object_music_player.sound = audio_play_sound(sound_boss_battle, 10, true);
