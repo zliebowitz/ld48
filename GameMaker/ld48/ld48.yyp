@@ -106,6 +106,7 @@
     {"id":{"name":"cave_ruins","path":"sprites/cave_ruins/cave_ruins.yy",},"order":6,},
     {"id":{"name":"sprite_health_border","path":"sprites/sprite_health_border/sprite_health_border.yy",},"order":11,},
     {"id":{"name":"sound_slash_hit","path":"sounds/sound_slash_hit/sound_slash_hit.yy",},"order":7,},
+    {"id":{"name":"object_volume_contols","path":"objects/object_volume_contols/object_volume_contols.yy",},"order":22,},
     {"id":{"name":"AlienPlanet1Old","path":"rooms/AlienPlanet1Old/AlienPlanet1Old.yy",},"order":1,},
     {"id":{"name":"sprite_spiderbot","path":"sprites/sprite_spiderbot/sprite_spiderbot.yy",},"order":6,},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},"order":2,},
