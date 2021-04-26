@@ -20,6 +20,7 @@ if(global.boss_hittable == true)
 		if (monster_health <= 0)
 		{
 			instance_destroy();
+			instance_destroy(object_wall_exit.id);
 			audio_play_sound(sound_boss_death, 20, false);
 			
 			for (var j = 0; j < sprite_height / 8; j++)
