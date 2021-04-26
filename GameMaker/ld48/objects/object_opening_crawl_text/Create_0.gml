@@ -17,7 +17,7 @@ opening_text =
 				"diminishes, soon freezing all planets\n" +
 				"that orbit the afflicted star.\n\n\n\n\n\n" +
 				"A lone Rim Explorer travels deep into\n" +
-				"the reaches of Plauge Space\n" +
+				"the reaches of Plague Space\n" +
 				"to find the cause\n" +
 				"of the mysterious disease.\n\n";
 
@@ -29,7 +29,7 @@ alien_planet1_text =
 
 alien_planet2_text = 
 				"- Enclosed Space -\n" +
-                "A theoretical diemensional construct that\n" +
+                "A theoretical dimensional construct that\n" +
                 "intersects with our dimension.\n" +
                 "Small tunnels can be opened into\n" +
                 "Enclosed Space that allow for FTL travel.\n\n";
@@ -51,7 +51,7 @@ alien_planet4_text =
 alien_planet5_text = 
 				"- Illix -\n" +
 				"A long dead civilization\n" +
-                "with beings who contstructed\n" +
+                "with beings who constructed\n" +
                 "the Dimensional Synapse.\n\n";
 				
 alien_planet6_text =
