@@ -70,19 +70,19 @@ alien_planet7_text =
 				"Travis Benderman\n" +
 				"Stephen Hoskins\n" +
 				"Zachary Liebowitz\n" +
-				"Josh Luoni\n" +
+				"Joshua Luoni\n" +
 				"\n" +
 				"Programming:\n" +
 				"Travis Benderman\n" +
 				"Stephen Hoskins\n" +
 				"Zachary Liebowitz\n" +
-				"Josh Luoni\n" +
+				"Joshua Luoni\n" +
 				"\n" +
 				"Graphics:\n" +
 				"Travis Benderman\n" +
 				"Stephen Hoskins\n" +
 				"Zachary Liebowitz\n" +
-				"Josh Luoni\n" +
+				"Joshua Luoni\n" +
 				"\n" +
 				"Music:\n" +
 				"Stephen Hoskins\n" +
@@ -90,7 +90,7 @@ alien_planet7_text =
 				"Sound Effects:\n" +
 				"Travis Benderman\n" +
 				"Stephen Hoskins\n" +
-				"Josh Luoni\n" +
+				"Joshua Luoni\n" +
 				"\n\n\n\n\n\n\n\n\n" +
 				"Thank you very much for\n" +
 				"playing our game.\n" +
