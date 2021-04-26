@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sound_boss_battle.wav",
-  "duration": 12.786315,
+  "duration": 19.1879253,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",
