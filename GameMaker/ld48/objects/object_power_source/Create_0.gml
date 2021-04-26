@@ -1,4 +1,4 @@
-monster_health = 20;
+monster_health = 40;
 monster_health_max = monster_health
 
 max_shake_count = room_speed / 2;

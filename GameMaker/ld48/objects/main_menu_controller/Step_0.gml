@@ -26,7 +26,7 @@ else if (controller_state.select)
 		// Note: because the object is only crated once due to the done flag and it chagnes the room, we don't worry about the allocation.
 		fadeout = instance_create_depth(0,0,depth, object_fade_out);
 		fadeout.room_id = room_next(room);
-		//fadeout.room_id = Abyss;
+		//fadeout.room_id = AlienPlanet4Test;
 		fadeout.max_fade_count = room_speed / 2;
 		done = true;	
 	}
