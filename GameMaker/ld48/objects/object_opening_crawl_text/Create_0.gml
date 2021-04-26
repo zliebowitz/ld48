@@ -10,11 +10,11 @@ opening_text =
 				"this infection spreads\n" + 
 				"from star to star.\n" + 
 				"Once infected,\n" +
-				"the star greatly shrinks in size,\n" +  
+				"each star greatly shrinks in size,\n" +  
 				"and its color\n" + 
 				"turns to a dark purple.\n" +
 				"The energy of the star greatly\n" +
-				"diminishes, soon freezing all planets\n" +
+				"diminishes, freezing all the planets\n" +
 				"that orbit the afflicted star.\n\n\n\n\n\n" +
 				"A lone Rim Explorer travels deep into\n" +
 				"the reaches of Plague Space\n" +
@@ -36,8 +36,8 @@ alien_planet2_text =
 				
 alien_planet3_text = 
 				"- Ixcar'th -\n" +
-                "Consumes the power collected through\n" +
-                "the Dimensional Synapse.\n" +
+                "A being that consumes the power collected\n" +
+                "through the Dimensional Synapse.\n" +
                 "Sees the portal between Enclosed Space\n" +
                 "and reality simply as a source of food.\n\n";
 				
