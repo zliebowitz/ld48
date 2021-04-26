@@ -19,6 +19,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"main_menu_controller","path":"objects/main_menu_controller/main_menu_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":60.0,"y":78.0,"resourceVersion":"1.0","name":"inst_1042A555","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_silence","path":"objects/object_silence/object_silence.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":60.0,"y":100.0,"resourceVersion":"1.0","name":"inst_47843176","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"object_fade_in","path":"objects/object_fade_in/object_fade_in.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":60.0,"y":123.0,"resourceVersion":"1.0","name":"inst_2D34E27D","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":1,"gridY":1,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":1,"gridY":1,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -28,6 +29,7 @@
   "instanceCreationOrder": [
     {"name":"inst_1042A555","path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"inst_47843176","path":"rooms/MainMenu/MainMenu.yy",},
+    {"name":"inst_2D34E27D","path":"rooms/MainMenu/MainMenu.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
