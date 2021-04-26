@@ -26,6 +26,11 @@ if(enable_jump)
 	
 	if(y >= basey)
 	{
+		if(jump == 0)
+		{
+			y = basey;
+			audio_play_sound(sound_boss_land,50,false);
+		}
 		jump++;
 		phy_speed_y = 0;
 	}
@@ -39,7 +44,8 @@ if(enable_jump)
 	if jump >= jump_delay
 	{	
 		phy_speed_y = jump_initial_speed
-		jump = 0;	
+		jump = 0;
+		audio_play_sound(sound_boss_jump,50,false);
 	}
 	
 }
