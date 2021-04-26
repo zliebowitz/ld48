@@ -12,11 +12,15 @@ var x_in = controller_state.x_dir;
 // Running
 if (x_in != 0 && attack_delay_count == max_attack_delay_count )
 {
-	image_xscale = sign(x_in);
-	sprite_index = sprite_avatar_running;
 	physics_apply_force(x, y, x_in * x_force, 0)
 }
+
 // Idle
+if (abs(phy_speed_x) > .3 && sign(x_in) == sign(phy_speed_x) && attack_delay_count == max_attack_delay_count)
+{
+	image_xscale = sign(phy_speed_x);
+	sprite_index = sprite_avatar_running;
+}
 else if (attack_delay_count == max_attack_delay_count &&
 		 !controller_state.jump)
 {
@@ -97,7 +101,7 @@ if !on_ground
 //phy_speed_x = clamp(phy_speed_x, -max_x_speed, max_x_speed);
 
 
-if abs(phy_speed_x) >= max_x_speed || x_in == 0
+if abs(phy_speed_x) >= max_x_speed || sign(phy_speed_x) * x_in <= 0
 {
 	phy_speed_x *= x_deceleration;
 }
