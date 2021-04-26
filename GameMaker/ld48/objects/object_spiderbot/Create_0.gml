@@ -21,3 +21,8 @@ firerain_delay = 1000
 firerain_count = 20
 
 basey = ystart
+
+enable_bullet_hell=false;
+enable_jump=false;
+enable_fire_rain=false;
+bullet_hell_cycle = 200;

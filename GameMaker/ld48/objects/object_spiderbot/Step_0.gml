@@ -2,9 +2,8 @@
 // You can write your code in this editor
 
 
-//if(room != AlienPlanet1 || room != AlienPlanet2)
-//{
-
+if(enable_fire_rain)
+{
 firerain_step++;
 if(firerain_step >= firerain_delay)
 {
@@ -18,14 +17,11 @@ if(firerain_step >= firerain_delay)
 	}
 	audio_play_sound(sound_fire_shoot,50,false);
 }
-
-	
-	
-//}
+}
 
 
 
-if(room != AlienPlanet1)
+if(enable_jump)
 {
 	
 	if(y >= basey)
@@ -48,33 +44,37 @@ if(room != AlienPlanet1)
 	
 }
 
-
-
 if abs(distance_to_object(global.player)) <= 70 && moveTime <= 0
 {
 	phy_speed_x = 0;
-	moveTime = 100;
+	moveTime = bullet_hell_cycle;
 	moveLeft = !moveLeft;
 }
 
-// Attacks
-if moveTime % 90 == 0
+if(enable_bullet_hell)
 {
-	bullet = instance_create_depth(x+64, y+84, 0, object_bullet);
-	bullet.direction = point_direction(x+64, y+84, global.player.x, global.player.y);
-	bullet.speed = 3;
-}
-if moveTime % 90 == 30
-{
-	bullet = instance_create_depth(x+136, y+84, 0, object_bullet);
-	bullet.direction = point_direction(x+136, y+84, global.player.x, global.player.y);
-	bullet.speed = 3;
-}
-if moveTime % 90 == 60
-{
-	bullet = instance_create_depth(x+208, y+84, 0, object_bullet);
-	bullet.direction = point_direction(x+208, y+84, global.player.x, global.player.y);
-	bullet.speed = 3;
+	var bullet_hell_modulus = floor(bullet_hell_cycle-10);
+	var bullet_hell_delay =  floor(bullet_hell_modulus/3);
+	
+	// Attacks
+	if moveTime %  bullet_hell_modulus == 0
+	{
+		bullet = instance_create_depth(x+64, y+84, 0, object_bullet);
+		bullet.direction = point_direction(x+64, y+84, global.player.x, global.player.y);
+		bullet.speed = 3;
+	}
+	if moveTime % bullet_hell_modulus == bullet_hell_delay
+	{
+		bullet = instance_create_depth(x+136, y+84, 0, object_bullet);
+		bullet.direction = point_direction(x+136, y+84, global.player.x, global.player.y);
+		bullet.speed = 3;
+	}
+	if moveTime % bullet_hell_modulus == floor(bullet_hell_delay*2)
+	{
+		bullet = instance_create_depth(x+208, y+84, 0, object_bullet);
+		bullet.direction = point_direction(x+208, y+84, global.player.x, global.player.y);
+		bullet.speed = 3;
+	}
 }
 
 
