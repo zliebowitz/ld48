@@ -8,6 +8,6 @@ surface_ping = -1;
 surface_pong = -1;
 
 blur_sigma = 0.125;
-blur_steps = 5.0;
+blur_steps = 7.0;
 
 application_surface_draw_enable(false);

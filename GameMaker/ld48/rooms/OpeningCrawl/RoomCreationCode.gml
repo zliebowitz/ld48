@@ -1,4 +1,4 @@
-window_set_caption("Chronos");
+window_set_caption("Ixcar'th");
 window_set_cursor(cr_none);
 window_set_size(1920, 1080);
 window_set_fullscreen(true);
