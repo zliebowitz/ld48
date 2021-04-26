@@ -5,6 +5,8 @@
 // Used this example for reference.
 // https://forum.yoyogames.com/index.php?threads/basic-physics-platformer-controls.65895/
 //
+if (!visible)
+	return;
 
 var controller_state = GameplayController();
 
@@ -75,7 +77,7 @@ if on_ground
 		audio_play_sound(sound_jump, 50, false);
    }
 }
-else if place_meeting(x + 1, y, object_collideable) && (jump_buffer_count < jump_buffer)
+else if place_meeting(x + 1.5, y, object_collideable) && (jump_buffer_count < jump_buffer)
 {
 	phy_speed_y = 0;
 	phy_speed_x = 0;
@@ -83,7 +85,7 @@ else if place_meeting(x + 1, y, object_collideable) && (jump_buffer_count < jump
 	jump_buffer_count = jump_buffer;
 	audio_play_sound(sound_jump, 50, false);
 }
-else if place_meeting(x - 1, y, object_collideable) && (jump_buffer_count < jump_buffer)
+else if place_meeting(x - 1.5, y, object_collideable) && (jump_buffer_count < jump_buffer)
 {
 	phy_speed_y = 0;
 	phy_speed_x = 0;

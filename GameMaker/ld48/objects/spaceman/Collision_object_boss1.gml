@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
 xdir=point_direction(x,y, other.x + other.sprite_width / 2, y)
 ydir=point_direction(x,y, x, other.y)
 

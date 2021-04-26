@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// probably redudant, but simple to go withotu verifying.
+if (!visible)
+	return;
+
 healthbar_width = 30;
 healthbar_height = 4;
 healthbar_x = x - (healthbar_width/2);
