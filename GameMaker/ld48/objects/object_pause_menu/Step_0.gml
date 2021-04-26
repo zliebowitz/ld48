@@ -38,7 +38,7 @@ if ((controller.menu || (controller.cancel && paused)) && !pausePressed)
 		
 		// disable drawing of the application surface because we will draw our copy now
 		application_surface_draw_enable(false);
-		audio_pause_all();
+		//audio_pause_all();
 	}
 	else
 	{

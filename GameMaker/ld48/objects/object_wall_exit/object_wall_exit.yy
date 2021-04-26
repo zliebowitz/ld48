@@ -41,7 +41,7 @@
     "path": "folders/Objects/walls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_autowall_exit",
+  "name": "object_wall_exit",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -4,7 +4,7 @@
 x = room_width/2
 
 opening_text = 
-				"[The Stellar Plague]\n" +
+				"- The Stellar Plague -\n" +
                 "First noticed in the outer reaches\n" +
 				"of the galaxy, \n" +
 				"this infection spreads\n" + 
@@ -22,39 +22,40 @@ opening_text =
 				"of the mysterious disease.\n\n";
 
 alien_planet1_text = 
-				"[Dimensional Synapse]\n" +
+				"- Dimensional Synapse -\n" +
                 "Collects power from millions of stars\n" +
                 "and creates a permanent connection from\n" +
                 "our realm to Enclosed Space.\n\n";
 
 alien_planet2_text = 
-				"[Enclosed Space]\n" +
+				"- Enclosed Space -\n" +
                 "A theoretical diemensional construct that\n" +
                 "intersects with our dimension.\n" +
                 "Small tunnels can be opened into\n" +
                 "Enclosed Space that allow for FTL travel.\n\n";
 				
 alien_planet3_text = 
-				"[Ixcar'th]\n" +
+				"- Ixcar'th -\n" +
                 "Consumes the power collected through\n" +
                 "the Dimensional Synapse.\n" +
                 "Sees the portal between Enclosed Space\n" +
                 "and reality simply as a source of food.\n\n";
 				
 alien_planet4_text = 
-				"[Anoids]\n" +
+				"- Anoids -\n" +
                 "Species who excavated the Dimensional Synapse\n" +
                 "and accidentally activated it.\n" +
                 "They dissapeared after the activation.\n\n";
 
 
 alien_planet5_text = 
-				"[Illix] - Long dead civilization\n" +
+				"- Illix -\n" +
+				"A Long dead civilization\n" +
                 "with beings who contstructed\n" +
                 "the Dimensional Synapse.\n\n";
 				
 alien_planet6_text =
-				"[Epilogue]\n" +
+				"- Epilogue -\n" +
 				"With the Dimensional Synapse destroyed,\n" +
 				"Ixcar'th is no longer able to exert his\n" +
 				"influence upon this universe. The infected\n" +
@@ -67,7 +68,7 @@ switch(room)
 {
 	case OpeningCrawl:
 		crawl_text = opening_text;
-		room_height=1000;
+		room_height=1024;
 		break;
 	case AlienPlanet1Crawl:
 		crawl_text = alien_planet1_text;
