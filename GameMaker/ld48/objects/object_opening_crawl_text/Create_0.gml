@@ -52,6 +52,15 @@ alien_planet5_text =
 				"[Illix] - Long dead civilization\n" +
                 "with beings who contstructed\n" +
                 "the Dimensional Synapse.\n\n";
+				
+alien_planet6_text =
+				"[Epilogue]\n" +
+				"With the Dimensional Synapse destroyed,\n" +
+				"Ixcar'th is no longer able to exert his\n" +
+				"influence upon this universe. The infected\n" +
+				"stars will remain dark to serve as a reminder\n" +
+				"that Ixcar'th is not dead...\n\n\n\n\n\n\n" +
+				"Just asleep once more...\n\n";
 
 
 switch(room)
@@ -78,6 +87,10 @@ switch(room)
 		break;
 	case AlienPlanet5Crawl:
 		crawl_text = alien_planet5_text;
+		room_height=600;
+		break;
+	case Epilogue:
+		crawl_text = alien_planet6_text;
 		room_height=600;
 		break;
 	default:
