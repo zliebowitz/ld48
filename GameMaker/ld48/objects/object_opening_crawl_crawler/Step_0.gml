@@ -11,3 +11,5 @@ if (y > room_height + 120)
 {
 	object_fade_out.room_id = next_room;
 }
+
+y += y_velocity;

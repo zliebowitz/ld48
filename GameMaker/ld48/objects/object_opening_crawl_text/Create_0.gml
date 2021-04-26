@@ -62,7 +62,40 @@ alien_planet6_text =
 				"stars will remain dark to serve as a reminder\n" +
 				"that Ixcar'th is not dead...\n\n\n\n\n\n\n" +
 				"Just asleep once more...\n\n";
-
+				
+alien_planet7_text =
+				"- Credits -\n" +
+				"\n" +
+				"Game Created By:\n" +
+				"Travis Benderman\n" +
+				"Stephen Hoskins\n" +
+				"Zachary Liebowitz\n" +
+				"Josh Luoni\n" +
+				"\n" +
+				"Programming:\n" +
+				"Travis Benderman\n" +
+				"Stephen Hoskins\n" +
+				"Zachary Liebowitz\n" +
+				"Josh Luoni\n" +
+				"\n" +
+				"Graphics:\n" +
+				"Travis Benderman\n" +
+				"Stephen Hoskins\n" +
+				"Zachary Liebowitz\n" +
+				"Josh Luoni\n" +
+				"\n" +
+				"Music:\n" +
+				"Stephen Hoskins\n" +
+				"\n" +
+				"Sound Effects:\n" +
+				"Travis Benderman\n" +
+				"Stephen Hoskins\n" +
+				"Josh Luoni\n" +
+				"\n\n\n\n\n\n\n\n\n" +
+				"Thank you very much for\n" +
+				"playing our game.\n" +
+				"We look forward to bringing\n" +
+				"you our next adventure!\n";
 
 switch(room)
 {
@@ -93,6 +126,10 @@ switch(room)
 	case Epilogue:
 		crawl_text = alien_planet6_text;
 		room_height=600;
+		break;
+	case EndCredits:
+		crawl_text = alien_planet7_text;
+		room_height=1520;
 		break;
 	default:
 		crawl_text = "";
