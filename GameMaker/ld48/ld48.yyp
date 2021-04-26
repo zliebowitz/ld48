@@ -17,6 +17,7 @@
     {"id":{"name":"sound_bullet_hit","path":"sounds/sound_bullet_hit/sound_bullet_hit.yy",},"order":4,},
     {"id":{"name":"object_abyss_music","path":"objects/object_abyss_music/object_abyss_music.yy",},"order":4,},
     {"id":{"name":"ground_1_2","path":"sprites/ground_1_2/ground_1_2.yy",},"order":0,},
+    {"id":{"name":"object_autowall_exit","path":"objects/object_autowall_exit/object_autowall_exit.yy",},"order":2,},
     {"id":{"name":"background_controller_1","path":"objects/background_controller_1/background_controller_1.yy",},"order":0,},
     {"id":{"name":"Object23","path":"objects/Object23/Object23.yy",},"order":16,},
     {"id":{"name":"AlienPlanet5","path":"rooms/AlienPlanet5/AlienPlanet5.yy",},"order":7,},

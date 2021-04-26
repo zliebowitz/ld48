@@ -9,8 +9,10 @@ if(global.boss_hittable)
 		monster_health -= 1;
 		if (monster_health <= 0)
 		{
+			audio_stop_all();
+			instance_destroy(object_autowall_exit.id);
+			audio_play_sound(sound_boss_death,25,false);
 			instance_destroy();
-			audio_play_sound(sound_boss_death,25,false)
 		}
 	}
 }
