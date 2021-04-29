@@ -67,19 +67,19 @@ alien_planet7_text =
 				"- Credits -\n" +
 				"\n" +
 				"Game Created By:\n" +
-				"Travis Benderman\n" +
+				"Travis Bender\n" +
 				"Stephen Hoskins\n" +
 				"Zachary Liebowitz\n" +
 				"Joshua Luoni\n" +
 				"\n" +
 				"Programming:\n" +
-				"Travis Benderman\n" +
+				"Travis Bender\n" +
 				"Stephen Hoskins\n" +
 				"Zachary Liebowitz\n" +
 				"Joshua Luoni\n" +
 				"\n" +
 				"Graphics:\n" +
-				"Travis Benderman\n" +
+				"Travis Bender\n" +
 				"Stephen Hoskins\n" +
 				"Zachary Liebowitz\n" +
 				"Joshua Luoni\n" +
@@ -88,9 +88,12 @@ alien_planet7_text =
 				"Stephen Hoskins\n" +
 				"\n" +
 				"Sound Effects:\n" +
-				"Travis Benderman\n" +
+				"Travis Bender\n" +
 				"Stephen Hoskins\n" +
 				"Joshua Luoni\n" +
+				"\n" +
+				"Writing & Lore:\n" +
+				"Travis Bender\n" +
 				"\n\n\n\n\n\n\n\n\n" +
 				"Thank you very much for\n" +
 				"playing our game.\n" +
@@ -129,7 +132,7 @@ switch(room)
 		break;
 	case EndCredits:
 		crawl_text = alien_planet7_text;
-		room_height=1520;
+		room_height=1584;
 		break;
 	default:
 		crawl_text = "";

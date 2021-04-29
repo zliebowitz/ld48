@@ -1,1 +1,1 @@
-y_velocity = 0.5;
+y_velocity = 0.521;
